@@ -141,6 +141,9 @@ function darkNote() {
     darkNote()
  })
 exit.addEventListener('click', () => {
+
+    currentPage = 1
+
     input.value = '';
     myFunction()
 })
